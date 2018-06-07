@@ -1,0 +1,24 @@
+{
+  "name": "lint-test-ejs-scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-lint": "sass-lint -c .sass-lint.yml -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makura3/Lint-test-ejs-scss-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makura3/Lint-test-ejs-scss-js/issues"
+  },
+  "homepage": "https://github.com/makura3/Lint-test-ejs-scss-js#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "sass-lint": "^1.12.1"
+  }
+}

@@ -1,0 +1,26 @@
+@import './btn.scss';
+
+.btn {
+  border: none;
+}
+
+p {
+  color: #CCC;
+  border: 1px solid #999;
+  padding: 0;
+}
+
+div
+{
+  color: #DDD;
+  .hoge {
+    color: #333;
+  }
+}
+
+.checkBtn {
+  .hoge {
+    color: #333;
+  }
+  border: 1px solid #CCC;
+}

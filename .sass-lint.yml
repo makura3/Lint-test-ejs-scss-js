@@ -1,0 +1,25 @@
+# 0:無効 1:有効
+options:
+  merge-default-rules: false
+  max-warnings: 50 # 最大警告数
+files:
+  include: './src/assets/scss/**/*.scss' # 検証するscss
+rules:
+  zero-unit: 1 # 0pxの場合にpxをつけない padding: 0;
+  border-zero: # borderがない時、0ではなくnoneにする border:none;
+    - 1
+    - convention: none
+  brace-style: 1 # セレクタの後に{を書くようにする
+  class-name-format: 1 # セレクタをキャメルで書く
+  clean-import-paths: #importしたファイルに拡張子をつける
+    - 1
+    - filename-extension: true
+  declarations-before-nesting: 1 # 親セレクタのスタイルをネストした子セレクタより前に書く .a{color:#FFF; .b{color:#FFF;}}
+  indentation: # インデントは半角スペース2つ
+    - 2
+    -
+      size: 2
+  property-sort-order: # スタイルの順番(abc順で書く)
+    - 1
+    -
+      ignore-custom-properties: false
